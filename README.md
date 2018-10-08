@@ -1,4 +1,4 @@
-# hu-rails-lecture
+# web-sd-lecture
 
 ## Description
 This project is a collection of web application for in-lecture presentation of
