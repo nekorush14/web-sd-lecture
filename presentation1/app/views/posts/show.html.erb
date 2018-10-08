@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong><%= t 'title' %>:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong><%= t  'text'%></strong>
+  <%= @post.text %>
+</p>
+
+<p>
+  <strong><%= t 'post_time' %>:</strong>
+  <%= l @post.created_at, formats: :custom1 %>
+</p>
+
+<%= link_to (t 'edit'), edit_post_path(@post) %> |
+<%= link_to (t 'back'), posts_path %>
