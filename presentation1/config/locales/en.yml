@@ -258,5 +258,8 @@ en-US:
   show: Show post
   remove: Remove post
   there_is_no_post: There is no post
+  created_flash: Post was successfully created.
+  updated_flash: Post was successfully updated.
   confirm: Are you sure?
+  destroyed_flash: Post was successfully deleted.
   operations: Operations

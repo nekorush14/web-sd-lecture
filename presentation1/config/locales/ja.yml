@@ -208,7 +208,7 @@ ja:
   time:
     am: 午前
     formats:
-      default: "%Y年%m月%d日(%a) %H時%M分%S秒 %z"
+      default: "%Y年%m月%d日(%a) %H時%M分%S秒"
       long: "%Y/%m/%d %H:%M"
       short: "%m/%d %H:%M"
     pm: 午後
@@ -223,5 +223,8 @@ ja:
   new_post: 新規投稿
   remove: 削除
   there_is_no_post: 投稿はありません
+  created_flash: 新規投稿に成功しました
+  updated_flash: 投稿の更新に成功しました
   confirm: 削除しますか?
+  destroyed_flash: 投稿の削除に成功しました
   operations: 操作
