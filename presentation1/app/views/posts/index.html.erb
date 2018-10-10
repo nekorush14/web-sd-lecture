@@ -26,7 +26,7 @@
         <td><%= l post.created_at, formats: :custom1 %></td>
         <td><%= link_to (t 'show'), post %></td>
         <td><%= link_to (t 'edit'), edit_post_path(post) %></td>
-        <td><%= link_to (t 'remove'), post, method: :delete, data: { confirm: "Are you sure?" } %></td>
+        <td><%= link_to (t 'remove'), post, method: :delete, data: { confirm: (t 'confirm') } %></td>
       </tr>
     <% end %>
     </tbody>
